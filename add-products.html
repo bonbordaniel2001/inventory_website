@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management-Add products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--navigation menu--  -->
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="add-products.html">Add products</a>
+        <a href="about.html">About</a>
+    </nav>
+    <h1>Add Products</h1>
+    <!-- FORM -->
+    <form action="">
+        <!-- Text Field -->
+         <fieldset>
+            <legend>Text Entry for products you want to add</legend>
+<label for="product_name">Products Name</label>
+         <input type="text" name="product_name">
+         <br><br> 
+         <label for="price">Price:</label>
+         <input type="text" name="price">
+         <br><br>
+        
+         </fieldset>
+         <!-- Radio Buttons -->
+          <fieldset>
+            <legend>Select the condition for the product</legend>
+<label for="">Conditions:</label><br><br>
+          <input type="radio" name="condition" value="new"> New <br>
+          <input type="radio" name="condition" value="Used"> Used <br><br>
+          </fieldset>
+         <!-- Checkboxes -->
+          <fieldset>
+            <legend>Choose an Option</legend>
+            <label for="">Options:</label><br><br>
+          <input type="checkbox" name="stock"> In stock <br><br>
+
+          <input type="checkbox" name="sale"> On sale <br><br>
+          </fieldset>
+           <input type="submit" value="Submit" >
+
+              </form>
+</body>
+</html>

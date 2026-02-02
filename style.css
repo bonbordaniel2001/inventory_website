@@ -1,0 +1,45 @@
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+background-color: rgb(50, 205, 197);
+}
+
+/* navigation bar */
+nav{border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 89, 255);
+    margin-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+/* Rollover image */
+.rollover{
+    width: 300px;
+}
+.rollover:hover{
+    content: url(store-hover.jpeg) ;
+}
+/* visible Border Table */
+.data-table{
+    border-collapse: collapse;
+    width: 80%;
+}
+.data-table th,.data-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+/* Invisible Layout Table */
+.layout-table{
+    border: none;
+}
+/* box model */
+.box-image{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 150px;
+}
