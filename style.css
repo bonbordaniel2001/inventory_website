@@ -21,7 +21,7 @@ nav a {
     width: 300px;
 }
 .rollover:hover{
-    content: url(store-hover.jpeg) ;
+    content: url(images/store-hover.jpeg) ;
 }
 /* visible Border Table */
 .data-table{
@@ -43,3 +43,4 @@ nav a {
     border: 2px solid black;
     width: 150px;
 }
+
